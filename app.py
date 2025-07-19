@@ -23,4 +23,4 @@ app.layout = html.Div(children=[
 
 # Rodando o servidor
 if __name__ == "__main__":
-    app.run_server(debug=True)
+    app.run(debug=False)
